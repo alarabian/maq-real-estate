@@ -1,0 +1,1576 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a,
+span {
+  display: inline-block;
+}
+
+p {
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sectionSpace {
+  padding: 60px 0;
+}
+
+.container-fluid {
+  padding: 0 40px;
+}
+
+.bgCover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.sectionTitle h2 {
+  color: #58275e;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.sectionTitle p {
+  margin: 0;
+}
+
+.sectionTitle h2:after {
+  width: 40px;
+  height: 5px;
+  background: #ffb423;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  content: "";
+}
+
+
+/* BREADCRUMB CSS START */
+.pageCover {
+  background: #f0eff7;
+  padding: 10px 0;
+}
+
+.pageCover ol.breadcrumb {
+  margin: 0;
+}
+
+/* BREADCRUMB CSS END */
+
+
+/* Header CSS START */
+.header_sec.active {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 111;
+}
+
+.topHeader {
+  background: #58275e;
+}
+
+.topHeaderInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.topHeader {
+  background: #58275e;
+}
+
+.topHeaderInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.topHeaderInfo .brandSec {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+
+.topHeaderInfo .brandSec .logo a {
+  font-size: 25px;
+  font-weight: 500;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.brandSec .location {
+  display: none;
+}
+
+.loginSec ul {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.loginSec ul li {
+  font-size: 14px;
+  color: #fff;
+}
+
+.loginSec ul li .postProperty {
+  background: #ffb423;
+}
+
+.loginSec ul li .postProperty .free {
+  background: red;
+  padding: 0 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.pageMenuSec {
+  padding: 0;
+}
+
+.header_sec.active .pageMenu {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.pageMenu {
+  background: #fff;
+  width: 100%;
+  /* padding: 8px 0; */
+  justify-content: center;
+  border-radius: 0 0 10px 10px;
+  position: relative;
+
+}
+
+.pageMenu li.nav-item.dropdown {
+  position: static;
+}
+
+.navbar-expand-lg.pageMenuSec .navbar-nav .dropdown-menu {
+  position: absolute;
+  width: 100%;
+  background-color: #f0eff7;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.pageMenu .nav-item .nav-link {
+  padding: 6px 16px;
+  font-size: 16px;
+  color: #707070;
+  text-transform: capitalize;
+}
+
+.pageMenu .nav-item .nav-link .new {
+  background: #ffb423;
+  padding: 0 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-left: 4px;
+}
+
+.dropdown-menu.dropdownSubmenu {
+  padding: 20px;
+}
+
+.subMenuInfo ul li a {
+  color: #3d3d3d;
+}
+
+.subMenuInfo ul li {
+  line-height: 30px;
+}
+
+.dropdown-menu.loginDropdown {
+  border: 0;
+  padding: 10px 20px;
+  width: 230px;
+  box-shadow: rgb(0 0 0 / 12%) 0px 5px 15px;
+}
+
+.dropdown-menu.loginDropdown ul {
+  display: block;
+}
+
+.dropdown-menu.loginDropdown ul li {
+  line-height: 30px;
+}
+
+.dropdown-menu.loginDropdown ul li a {
+  color: #707070;
+  font-size: 14px;
+}
+
+.dropdown-menu.loginDropdown ul hr {
+  margin: 4px 0;
+}
+
+.dropdown-menu.loginDropdown .login {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.dropdown-menu.loginDropdown .login a {
+  display: block;
+}
+
+.loginSec ul li.dropdown .btn.dropdown-toggle {
+  background-color: transparent;
+  font-size: 14px;
+  padding: 0;
+  color: #fff;
+  text-transform: uppercase;
+  border: 0;
+}
+
+.loginSec ul li.dropdown .btn.dropdown-toggle:focus {
+  border: 0;
+}
+
+.searchArea .nav-tabs .nav-link {
+  color: #fff;
+  text-transform: capitalize;
+  border: 0;
+}
+
+.searchArea .nav-tabs .nav-link.active {
+  background: transparent;
+  border: 0;
+}
+
+.searchArea .nav-tabs {
+  border: 0;
+}
+
+.pageMenu .nav-item a.nav-link.dropdown-toggle.show {
+  border-bottom: 4px solid #58275e;
+}
+
+/* Header CSS END */
+
+
+/* FOOTER CSS START */
+footer.footer {
+  background-color: #f0eff7;
+}
+
+.footerInfo h4 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #58275e;
+}
+
+.footerInfo ul li {
+  line-height: 30px;
+}
+
+.footerInfo ul li a {
+  color: #212529;
+  font-size: 14px;
+}
+
+.footerInfo ul {
+  list-style: circle;
+  padding-left: 20px;
+}
+
+.midFooter {
+  margin-top: 40px;
+}
+
+.ftrList ul {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+}
+
+.ftrList ul li a {
+  color: #212529;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.ftrInfo h4,
+.ftrList h4 {
+  color: #58275e;
+  margin-bottom: 10px;
+}
+
+.ftrList {
+  margin-top: 30px;
+}
+
+.secondarySec {
+  background: #d6d5dc;
+}
+
+
+.secondaryInfo ul {
+  display: flex;
+  padding: 10px 0;
+  column-gap: 40px;
+}
+
+.secondaryInfo ul li a {
+  color: #58275e;
+}
+
+.disclaimer p {
+  padding: 10px 0;
+}
+
+.copyRight {
+  padding: 10px 0;
+  background: #212529;
+}
+
+.copyRight p {
+  color: #fff;
+  margin: 0;
+}
+
+.disclaimer ul {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.disclaimer ul li strong {
+  display: block;
+}
+
+.disclaimer ul li p,
+.disclaimer ul li a {
+  color: #212529;
+  font-size: 25px;
+}
+
+.disclaimer ul li.address {
+  width: 50%;
+}
+
+/* FOOTER CSS END */
+
+/* Hero Sec CSS START */
+.heroSec {
+  padding: 250px 0 100px;
+}
+
+.searchArea ul {
+  display: flex;
+  column-gap: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+
+.searchArea {
+  width: 70%;
+}
+
+.searchArea ul li {
+  color: #fff;
+}
+
+.searchArea .nav-tabs .nav-link.active {
+  border-bottom: 4px solid #ffb423;
+}
+
+
+
+form.mainForm .form-select {
+  width: 20%;
+  text-transform: capitalize;
+}
+
+.mainForm {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.mainForm .form-group {
+  width: 60%;
+}
+
+.mainForm .form-group input,
+.mainForm .form-select {
+  border-radius: 0;
+  border: 0;
+
+}
+
+.mainForm .form-group input {
+  width: 100%;
+  border-left: 1px solid #dee2e6;
+}
+
+.mainForm .actionBtn {
+  display: flex;
+  margin-left: 10px;
+  column-gap: 10px;
+}
+
+.mainForm .actionBtn .icon {
+  width: 40px;
+  height: 40px;
+  background: rgb(240 249 255);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #58275e;
+}
+
+.mainForm .actionBtn .searchBtn {
+  background: #58275e;
+  color: #fff;
+}
+
+.stateInfo {
+  background: #f0eff7;
+  padding: 25px;
+  height: 100%;
+  position: relative;
+}
+
+.stateInfo h5 {
+  margin-bottom: 20px;
+}
+
+.stateInfo h5 span {
+  font-size: 30px;
+  color: #58275e;
+}
+
+.stateInfo a {
+  color: #58275e;
+}
+
+.boxIcon {
+  position: absolute;
+  right: 7px;
+  font-size: 50px;
+  bottom: 0;
+  color: #d9d9dc;
+}
+
+.galleyFigure {
+  background-attachment: fixed;
+  height: 400px;
+}
+
+/* Hero Sec CSS END */
+
+/* Popular Property CSS START */
+.propertyContent {
+  margin-bottom: 24px;
+  background-color: #fff;
+  box-shadow: 0px 5px 35px 0px rgba(36, 42.000000000000014, 76, 0.1);
+}
+
+.propertyContent .text {
+  padding: 20px 20px 0;
+}
+
+.propertyContent .text h3 {
+  color: #58275e;
+}
+
+
+.propertyContent .text h3 {
+  color: #58275e;
+  font-size: 22px;
+  margin: 0;
+}
+
+.propertyContent .text p {
+  color: #707070;
+}
+
+.propertyFigure a {
+  position: relative;
+}
+
+.propertyFigure a .num {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 20px;
+  color: #242424;
+  background: #ffb423;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+.propertyContent .detail {
+  border-top: 1px solid #e3e3e3;
+  display: block;
+  padding: 10px 20px;
+  color: #58275e;
+  font-size: 18px;
+}
+
+.propertyContent .detail svg {
+  font-size: 14px;
+}
+
+.propertyFigure a img {
+  object-fit: cover;
+}
+
+.agentCard {
+  border: 1px solid #f0eff7;
+  margin-bottom: 24px;
+}
+
+.agentCard .header {
+  background: #f0eff7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.agentCard .header .profile {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.agentCard .header .profile {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.agentCard .body {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.agentCard .body .profile p {
+  margin: 0;
+  font-size: 13px;
+}
+
+.agentCard .body .profile h6 {
+  margin: 10px 0 0;
+  font-size: 12px;
+}
+
+.agentCard .body .profile p {
+  margin: 0;
+  font-size: 13px;
+}
+
+.agentCard .footer ul {
+  display: flex;
+  padding: 15px;
+  border-top: 1px solid #f0eff7;
+  justify-content: space-between;
+}
+
+.agentCard .footer ul li strong {
+  display: block;
+  font-size: 25px;
+  color: #58275e;
+  line-height: 25px;
+}
+
+.agentCard .footer ul li {
+  font-size: 14px;
+}
+
+.agentCard .header .profile img,
+.agentCard .body .profile img {
+  object-fit: cover;
+}
+
+/* Popular Property CSS END */
+
+/* New Launch CSS START */
+.launchBody {
+  padding: 0 50px 50px;
+  background: #f0eff7;
+  position: relative;
+}
+
+.launchBody .title {
+  margin-bottom: 30px;
+}
+
+.projectView {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  height: 100%;
+}
+
+.launchBody .title span {
+  position: absolute;
+  left: 50px;
+  top: -10px;
+  background: #e03535;
+  padding: 0 10px;
+  color: #fff;
+}
+
+.launchBody .title h3 {
+  padding-top: 40px;
+}
+
+.projectView h4 {
+  margin: 0;
+}
+
+.projectView.one {
+  background-color: #c8f9ff;
+}
+
+.projectView.two {
+  background-color: #ffccd1;
+}
+
+.projectView.three {
+  background-color: #fff1c7;
+}
+
+.projectView .icon {
+  font-size: 25px;
+  color: #58275e;
+}
+
+.viewAll a {
+  margin-top: 20px;
+  background: #58275e;
+  color: #fff;
+}
+
+/* New Launch CSS END */
+
+/* Market Value CSS START */
+.marketValue {
+  padding: 40px;
+}
+
+.marketValue ul {
+  display: flex;
+  column-gap: 40px;
+  margin: 30px 0;
+}
+
+.marketValue ul li {
+  display: flex;
+  column-gap: 10px;
+}
+
+.marketValue ul li svg {
+  font-size: 30px;
+  color: #ffb423;
+}
+
+.marketValue h3 svg {
+  color: #ffb423;
+  margin-right: 10px;
+}
+
+.marketValue a {
+  background: #58275e;
+  color: #fff;
+}
+
+.marketValue h3 {
+  font-size: 40px;
+}
+
+.marketValue p {
+  color: #707070;
+  font-size: 18px;
+}
+
+/* Market Value CSS END */
+
+/* Villas CSS START */
+.figureCard {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.figureCard a {
+  position: relative;
+  background: #f0f9ff;
+  border-radius: 10px;
+  transition: .4s ease-in-out;
+}
+
+.figureCard a .text p {
+  margin: 0;
+  font-size: 20px;
+}
+
+.figureCard a .text {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  padding: 20px;
+}
+
+.figureCard a .text h3,
+.figureCard a .text p {
+  color: #212545;
+}
+
+/* Villas CSS END */
+
+
+/* Explore Local CSS START */
+.exploreTitle {
+  padding: 30px;
+  background: #f0eff7;
+  height: 100%;
+}
+
+.exploreCard {
+  border: 1px solid #f0eff7;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.exploreCard ul {
+  display: flex;
+  column-gap: 30px;
+}
+
+.exploreCard ul li {
+  font-size: 20px;
+
+}
+
+.exploreCard ul li strong {
+  color: #58275e;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.exploreCard ul li strong svg {
+  color: #ffb423;
+}
+
+.exploreCard .footer1 {
+  margin-top: 20px;
+  background: #f0eff7;
+  padding: 0 20px 15px;
+}
+
+.exploreCard .header {
+  padding: 20px;
+}
+
+.exploreCard .footer1 img {
+  margin-top: -20px;
+}
+
+.exploreCard .footer1 p {
+  margin: 10px 0 0;
+}
+
+/* Explore Local CSS END */
+
+
+
+/* POST PAGE STYLE START */
+.modal {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-dialog.postModal .modal-content {
+  border: 0;
+  border-radius: 12px;
+
+}
+
+.modal-dialog.postModal {
+  max-width: 45%;
+  top: 50%;
+  transform: translateY(-50%) !important;
+}
+
+.postModalBody {
+  padding: 40px 20px 30px;
+  text-align: center;
+  position: relative;
+}
+
+.postModalBody .mobileForm {
+  background: #f0eff7;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  width: 70%;
+  margin: 20px auto;
+  border-radius: 5px;
+  column-gap: 10px;
+  border: 1px solid #d3d1e0;
+}
+
+.postModalBody .mobileForm span {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.postModalBody .mobileForm input.form-control {
+  background: #f0eff7;
+  border: 0;
+  border-left: 1px solid #58275e;
+  border-radius: 0;
+  padding: 3px 12px;
+}
+
+.postModalBody .touchBtn {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.postModalBody .touchBtn .btn.btn-secondary {
+  background: #58275e;
+  border-color: #58275e;
+}
+
+.postModalBody button.close {
+  background: #58275e;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 0;
+  color: #fff;
+  position: absolute;
+  right: -30px;
+  top: -30px;
+  font-size: 20px;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-dialog.postModal .modal-footer {
+  justify-content: center;
+}
+
+.postForm {
+  box-shadow: rgb(0 0 0 / 12%) 0px 5px 15px;
+  padding: 40px;
+  position: sticky;
+  top: 30px;
+  border-radius: 15px;
+}
+
+.postList .postItem ul {
+  display: flex;
+  column-gap: 30px;
+}
+
+.postForm h3 {
+  color: #58275e;
+  margin-bottom: 30px;
+}
+
+.postList .postItem {
+  margin-bottom: 25px;
+}
+
+.postList .postItem ul li {
+  padding: 4px 15px;
+  border: 1px solid #f0eff7;
+  border-radius: 5px;
+}
+
+.contactForm .mobileForm {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  background: #f0eff7;
+  padding: 0 12px;
+  border-radius: 5px;
+}
+
+.contactForm .mobileForm input {
+  border: 0;
+  border-radius: 0;
+  background: #f0eff7;
+  border-left: 1px solid #bfbec6;
+  height: 45px;
+}
+
+.contactForm .mobileForm span {
+  font-size: 18px;
+}
+
+.infoText {
+  padding: 20px;
+  margin: 30px 0 10px;
+  border: 1px solid #f0eff7;
+  border-radius: 5px;
+}
+
+.infoText p {
+  margin: 0;
+}
+
+.postForm button.btn {
+  width: 100%;
+  background: #58275e;
+  color: #fff;
+}
+
+.pageInfoTitle {
+  display: flex;
+  align-items: center;
+}
+
+.pageInfoTitle .figure {
+  width: 50%;
+}
+
+.pageInfoTitle .text {
+  padding: 40px;
+}
+
+.pageInfoTitle .text h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.pageInfoTitle .text h2 .free {
+  color: #58275e;
+}
+
+.pageInfoTitle .text ul li {
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  font-size: 19px;
+}
+
+.pageInfoTitle .text ul li svg {
+  color: #58275e;
+}
+
+.wayOfWork {
+  padding: 40px 0;
+}
+
+.wayOfWork .workItem {
+  display: flex;
+  column-gap: 50px;
+  margin-bottom: 20px;
+}
+
+.wayOfWork .workItem .figure {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  background: #f0eff7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.wayOfWork .workItem .text h4 {
+  color: #58275e;
+}
+
+.tipsSelling.wayOfWork .workItem .text {
+  width: 80%;
+  padding-right: 100px;
+}
+
+.tipsSelling.wayOfWork .title,
+.postView .title,
+.propertyRates .title,
+.postFaqSec .title {
+  margin-bottom: 30px;
+}
+
+.wayOfWork .workItem .figure svg {
+  color: #58275e;
+  font-size: 30px;
+}
+
+.benefits.wayOfWork .workItem {
+  column-gap: 20px;
+  align-items: start;
+  padding-right: 200px;
+}
+
+.benefits.wayOfWork .workItem .figure {
+  width: auto;
+  height: auto;
+  background: #fff;
+}
+
+.reviewList .reviewItem {
+  padding: 30px;
+  box-shadow: rgb(0 0 0 / 12%) 0px 5px 15px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.reviewList .reviewItem .figure {
+  position: absolute;
+  right: 20px;
+  bottom: 30px;
+}
+
+.reviewList .reviewItem .figure img {
+  border-radius: 50%;
+  box-shadow: rgb(0 0 0 / 12%) 0px 5px 15px;
+}
+
+.reviewList .reviewItem .text h4 {
+  color: #58275e;
+  margin: 0;
+}
+
+.reviewList .reviewItem .text span {
+  color: darkgrey;
+}
+
+.propertyRates {
+  padding: 40px 0;
+}
+
+.propertyRates table thead th {
+  color: #58275e;
+  font-size: 19px;
+}
+
+.faqList .faqItem {
+  border: 1px solid #f0eff7;
+  padding: 25px;
+  margin-bottom: 20px;
+
+}
+
+.faqList .faqItem ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.faqList .faqItem ul li {
+  line-height: 30px;
+}
+
+.faqList .faqItem h4 {
+  color: #58275e;
+  margin-bottom: 15px;
+}
+
+.postForm button.btn.modalBtn {
+  background: #bbb216;
+  margin-top: 5px;
+  justify-content: center;
+  display: flex;
+}
+
+/* POST PAGE STYLE END*/
+
+/* PROPERTY DETAIL PAGE STYLE START*/
+
+.propertyCard {
+  padding: 30px;
+  border: 1px solid #f0eff7;
+  margin-bottom: 30px;
+}
+
+.propertyCard .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.propertyCard .header .priceList ul {
+  display: flex;
+  column-gap: 20px;
+}
+
+.flatInfoBody .flatInfoList ul {
+  background: #f0eff7;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+.flatInfoBody .flatInfoList ul li {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.flatBodyItem ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.flatBodyItem ul li strong {
+  display: block;
+  font-weight: 500;
+  color: #58275e;
+}
+
+.propertyCard .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  border-top: 1px solid #f0eff7;
+  padding-top: 20px;
+}
+
+.propertyCard .footer .time {
+  margin: 0;
+  display: flex;
+  column-gap: 8px;
+  align-items: center;
+}
+
+.propertyCard .footer .time svg {
+  color: #58275e;
+}
+
+.propertyCard .footer .contactBtn {
+  display: flex;
+  column-gap: 10px;
+}
+
+.propertyCard .footer .contactBtn button.btn {
+  border: 1px solid #58275e;
+  color: #58275e;
+}
+
+.propertyCard .footer .contactBtn button.btn-primary {
+  background: #58275e;
+  color: #fff;
+}
+
+.propertyCard .body p a {
+  text-decoration: underline;
+  color: #58275e;
+}
+
+.contactOwner {
+  box-shadow: rgb(0 0 0 / 12%) 0px 5px 15px;
+  padding: 40px;
+  position: sticky;
+  top: 30px;
+  border-radius: 15px;
+}
+
+.contactOwner p {
+  margin: 0;
+  font-size: 20px;
+}
+
+.contactOwner button.btn {
+  background: #ffb423;
+  display: block;
+  margin-top: 30px;
+  color: #58275e;
+}
+
+.propertyCard h3 {
+  margin-bottom: 30px;
+}
+
+.propertyMoreInfo ul li {
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.propertyMoreInfo ul li span {
+  width: 25%;
+}
+
+.propertyMoreInfo ul li strong {
+  font-weight: 500;
+  width: 75%;
+
+}
+
+.propertyCard .header h3 {
+  margin: 0;
+}
+
+.propertyCard .header {
+  margin-bottom: 30px;
+}
+
+.propertyCard .header a {
+  color: #58275e;
+  font-size: 17px;
+}
+
+.rankNum ul {
+  display: flex;
+  column-gap: 40px;
+}
+
+.rankNum ul li strong {
+  display: block;
+  font-size: 20px;
+  color: #58275e;
+  font-weight: 500;
+}
+
+.bodyList {
+  margin: 30px 0;
+}
+
+.bodyListItem {
+  background: #f0eff7;
+  padding: 20px;
+  height: 100%;
+
+}
+
+.bodyListItem ul li {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.bodyListItem ul li svg {
+  width: 20px;
+  color: #ffb423;
+}
+
+/* PROPERTY DETAIL PAGE STYLE END*/
+
+/* AUTH PAGE STYLE START*/
+.fullPage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fullPage .authBody {
+  /* width: 30%; */
+  background: #fff;
+  border: 1px solid #f0eff7;
+  margin: auto;
+}
+
+.fullPage .authBody .topBody {
+  padding: 40px 30px 30px;
+}
+
+.authBody .body {
+  margin: 20px 0;
+}
+
+.authBody .body .self {
+  display: flex;
+  margin-bottom: 20px;
+  column-gap: 30px;
+}
+
+.authBody .body .self li {
+  border: 1px solid #f0eff7;
+  padding: 6px 20px;
+  border-radius: 20px;
+}
+
+.authBody .body .form a.btn {
+  background: #58275e;
+  margin: 5px 0;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.authBody .body .form span {
+  display: flex;
+  justify-content: end;
+  font-size: 14px;
+}
+
+
+.addAnother {
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+}
+
+
+
+.addAnother:before {
+  content: "";
+  background: #e1e1e1;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  top: 12px;
+}
+
+.addAnother .with {
+  background: #ffff;
+  padding: 0 10px;
+  text-transform: uppercase;
+  position: relative;
+  font-size: 14px;
+}
+
+.addAnother ul {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.addAnother ul li {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.addAnother ul li svg {
+  font-size: 25px;
+  color: #58275e;
+}
+
+.otherWay {
+  background: #e1e1e1;
+  padding: 30px;
+  text-align: center;
+}
+
+.otherWay p {
+  margin: 0;
+}
+
+.otherWay p a {
+  text-decoration: underline;
+  color: #58275e;
+  font-weight: 500;
+}
+
+.authBody .body h6 {
+  margin: 0;
+}
+
+.authBody .body ul.otpHere {
+  display: flex;
+  justify-content: center;
+  column-gap: 15px;
+  margin: 50px 0 10px;
+}
+
+.authBody .body ul.otpHere li {
+  border-bottom: 1px solid #58275e;
+  width: 40px;
+}
+
+.authBody .resend ul {
+  display: flex;
+  margin-top: 20px;
+  border-top: 1px solid #f0eff7;
+  padding-top: 10px;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.authBody .resend ul li a {
+  font-size: 14px;
+  text-decoration: underline;
+  color: #58275e;
+}
+
+.authBody .resend ul li {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.authBody .body a.btn {
+  background: #58275e;
+  display: block;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+
+.IamRadio {
+  display: flex;
+  margin-bottom: 20px;
+  column-gap: 8px;
+}
+
+
+.IamRadio .form-check-label {
+  font-size: 14px;
+}
+
+.authBody .body .form-check-label a {
+  color: #58275e;
+  font-size: 14px;
+}
+
+.authBody .body button.btn.submit {
+  display: block;
+  background-color: #58275e;
+  width: 100%;
+  color: #fff;
+}
+
+.authBody .body .verify {
+  font-size: 14px;
+  display: block;
+  text-align: center;
+}
+
+/* AUTH PAGE STYLE END*/
+
+/* AGENT PROFILE STYLE START*/
+.profileCard .body .propItem ul {
+  display: flex;
+  column-gap: 15px;
+  flex-wrap: wrap;
+}
+
+.profileCard .body .propItem ul li {
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.profileCard .body .propItem {
+  margin-bottom: 20px;
+}
+
+.profileCard .body .propItem h4 {
+  color: red;
+}
+
+.profileCard .header h4,
+.profileCard .header p {
+  margin: 0;
+}
+
+.profileCard .header {
+  margin-bottom: 20px;
+}
+
+.profileCard .body .prop {
+  display: inline-flex;
+  background: #f0eff7;
+  padding: 20px 30px;
+  column-gap: 20px;
+  margin-bottom: 20px;
+}
+
+.profileCard .body .prop p {
+  margin: 0;
+}
+
+.profileCard .body .prop p strong {
+  font-size: 20px;
+}
+
+.profileFigure button.btn {
+  background: #58275e;
+  margin-top: 5px;
+  color: #fff;
+}
+
+.profileFigure img {
+  border-radius: 50%;
+}
+
+.profileFigure {
+  text-align: center;
+}
+
+/* AGENT PROFILE STYLE END*/
+
+.addInfo {
+  padding: 30px 30px 0;
+  background: #f3f3f3;
+  height: 100%;
+  margin-top: 30px;
+}
+
+.addInfo p {
+  margin: 0;
+}
+
+.addInfo p,
+.addInfo a {
+  font-size: 20px;
+  color: #212529;
+}
+
+form.contactForm {
+  width: 400px;
+  padding: 50px 30px;
+  backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+  position: absolute;
+  top: 30px;
+  right: 100px;
+}
+
+.addMap {
+  position: relative;
+  margin-top: 60px;
+}
+.exploreLocal{
+  margin-bottom: 40px;
+}
+.addInfo hr {
+  margin: 5px 0;
+  border-color: #c7c2c2;
+}
